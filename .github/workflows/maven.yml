@@ -13,7 +13,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+  run: mvn -B -e verify
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 11
